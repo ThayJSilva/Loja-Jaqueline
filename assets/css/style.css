@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+
+} 
+
+body {
+    background-color: pink;
+}
+
+.menu{
+    text-align: center;
+    padding: 10px;
+    background-color: pink;
+}
+
+a{
+
+    color: black;
+    padding-left: 8px;
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline;
+}
+.mt-20px{
+    margin-top: 20px;
+}
+h4{
+    font-size: 23px;
+    margin: 1px;
+}
+.p-30{
+    padding: 30px;
+}
+
+.form{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+.menu h4{
+    color: pink;
+}
+
+.menu a {
+    color: pink;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: pink;
+}
+
+.text-center{
+    text-align: center;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
