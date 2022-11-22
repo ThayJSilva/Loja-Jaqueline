@@ -9,68 +9,327 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title></title>
+
 </head>
 
 <body>
+    <div class="centro">
 
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <img src="assets/img/logo2.png" alt="" height="60" width="60">
+            <a class="navbar-brand" style="color: pink;" href="#"><h1>Jaqueline</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+                aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-
-
-
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-        <a class="navbar-brand" style="color: pink;" href="#">Jaqueline</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
-            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" style="color: pink;" href="#">Home <span class="sr-only">(página atual)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: pink;" href="contato.html">contato</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" style="color: pink;" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Redes Sociais
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" style="color: pink;" href="#">Wahtsapp</a>
-                        <a class="dropdown-item" style="color: pink;" href="#">Facebook</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" style="color: pink;" href="#">Instagram</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" style="color: pink;" href="#">Desativado</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-                <button class="btn btn btn-outline-secondary" style="color: pink;" my-2 my-sm-0" type="submit">Pesquisar</button>
-            </form>
-        </div>
+            <div class="collapse navbar-collapse altura" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: pink;" href="#">Home <span class="sr-only">(página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: pink;" href="contato.html">contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: pink;" href="#" id="navbarDropdown"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Redes Sociais
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" style="color: pink;" href="#">Wahtsapp</a>
+                            <a class="dropdown-item" style="color: pink;" href="#">Facebook</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" style="color: pink;" href="#">Instagram</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" style="color: pink;" href="#">Desativado</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn btn-outline-secondary" style="color: pink;" my-2 my-sm-0"
+                        type="submit">Pesquisar</button>
+                </form>
+            </div>
+    </div>
     </nav>
 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner container">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/jaque.home.jpg" width="600" height="550"
-                    alt="Primeiro Slide">
+                <img class="d-block w-100" src="assets/img/jaque.home.jpg" height="450" alt="Primeiro Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/jack.jpg" width="600" height="550" alt="Segundo Slide">
+                <img class="d-block w-100" src="assets/img/jack.jpg" height="450" alt="Segundo Slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/jaque.jpg" width="600" height="550" alt="Terceiro Slide">
+                <img class="d-block w-100" src="assets/img/jaque.jpg" height="450" alt="Terceiro Slide">
             </div>
         </div>
     </div>
+
+    <div class="container mt-3">
+
+    
+        <!--Cards-->
+
+        <div class="card-columns mb-5">
+            <div class="card">
+                <img class="card-img-top" src="assets/img/unhas9.jpg" width="100" height="200" Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title"> Bora cuidar de nossas unhas! Antes e depois-></h5>
+                </div>
+            </div>
+            <div class="card p-3">
+                <blockquote class="blockquote mb-0 card-body">
+                    <img class="card-img-top" src="assets/img/unhas3.jpg" width="100" height="200" Imagem de capa do
+                        card>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Jaqueline<cite title="Título da fonte">Designer</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="assets/img/unhas13.jpg" width="200" height="400"
+                    alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Perfeita</h5>
+                    <p class="card-text">“Unhas bem cuidadas combinam com qualquer look!”</p>
+                    <p class="card-text"><small class="text-muted">JaquelineDesigner</small></p>
+                </div>
+            </div>
+            <div class="card bg-primary text-white text-center p-3">
+                <blockquote class="blockquote mb-0">
+                    <img class="card-img-top" src="assets/img/unhas.jpg" width="100" height="200" Imagem de capa do
+                        card>
+                    <footer class="blockquote-footer">
+                        <small>
+                            Jaqueline <cite title="Título da fonte">Designer</cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">As unhas são um dos pontos fortes da beleza feminina.</h5>
+                    <p class="card-text">As mulheres estão cada vez mais exigentes quando o assunto é beleza. Por isso,
+                        ofereço serviços de qualidade, que atendem às necessidades de cada uma.</p>
+                    <p class="card-text"><small class="text-muted">designer</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img" src="assets/img/unhas5.jpg" Imagem do card">
+            </div>
+            <div class="card p-3 text-right">
+                <blockquote class="blockquote mb-0">
+                    <p>Poderosas</p>
+                    <footer class="blockquote-footer">
+                        <small class="text-muted">
+                            Jaqueline<cite title="Título da fonte">Designer
+                            </cite>
+                        </small>
+                    </footer>
+                </blockquote>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Arte nas unhas</h5>
+                    <p class="card-text">A arte de fazer as unhas requer dedicação, paciência e habilidade.</p>
+                    <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+                </div>
+            </div>
+        </div>
+        <!--/Cards-->
+
+        <!--Texto e video-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background-color: pink;">
+                    <h2>Manicure&Pedicure (Motiva)</h2>
+                    <p>
+                        Ser manicure é fazer o que amo e ainda conhecer pessoas maravilhosas.
+                        Ser manicure é um dom que vai das mãos ao coração!
+                        Amo ser manicure, pois além de fazer unhas, faço outra coisa que amo: conversar o dia todinho!
+                    </p>
+                    <p>
+                        Em caso de estresse, faça as unhas.
+                        Uma mulher com as unhas feitas não quer guerra com ninguém.
+                        Você nunca está completamente vestida sem antes ter ido na manicure.
+                    </p>
+                    <p>
+                        Manicure é amiga, ama conversar, tem talento e dá vida as nossas unhas.
+                        Não faça drama, faça as unhas!
+                        Para hoje a meta é muita alegria, felicidade e as unhas perfeitas.
+                    </p>
+                </div>
+                <div class="col">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/s7rZlAW60xo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <!--/Texto e video-->
+
+        <!--Formulario e maps-->
+        <div class="container mb-5">
+            <div class="row d-flex align-items-center">
+                <div class="col">
+                    <h2>Agende seu Horário</h2>
+                    <h2>Entre em contato conosco!</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Endereço de email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Assunto</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <h2>Endereço</h2>
+                    <p>Estrada dos Bandeirantes 10.573 Rua.Mazzaropi Beco.Aquario Casa.18</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.050093616805!2d-43.430022585644984!3d-22.98518534645042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bdc5d19bfbeb5%3A0x7afa92b2df045ebd!2sEstr.%20dos%20Bandeirantes%2C%2010573%20-%20Camorim%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022783-116!5e0!3m2!1spt-BR!2sbr!4v1668710967368!5m2!1spt-BR!2sbr"
+                        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" id="mapa" onmouseover="mapaZoo()"
+                        onmouseout="mapaNormal()"></iframe>
+
+                </div>
+            </div>
+        </div>
+
+        <!--/Formulario e maps-->
+    </div>
+
+    <!--Footer-->
+    <!-- Footer -->
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src= "assets/img/unhas8.jpg"
+                        class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="assets/img/unhas14.jpg"
+                            class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="assets/img/unhas009.jpg"
+                        class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-12 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="assets/img/unhas2.jpg" 
+                        class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="assets/img/unhas4.jpg"
+                        class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-2 col-md-6 mb-4">
+
+                    <!--Image-->
+                    <div class="view overlay z-depth-1-half">
+                        <img src="assets/img/unhas7.jpg"
+                        class="" alt="" height="210" width="150">
+                        <a href="">
+                            <div class="mask rgba-white-light"></div>
+                        </a>
+                    </div>
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a href="/"> MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!--/Footer-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
